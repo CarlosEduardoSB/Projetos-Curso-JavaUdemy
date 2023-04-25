@@ -6,14 +6,14 @@ public class Main {
 
 		Scanner sc = new Scanner(System.in);
 
-		int A, B;
+		int a, b;
 		
 		System.out.println("Digite o primeiro Número Inteiro:");
-		A = sc.nextInt();
+		a = sc.nextInt();
 		System.out.println("Digite o segundo Número Inteiro:");
-		B = sc.nextInt();
+		b = sc.nextInt();
 		
-		if (A % B == 0 || B % A == 0) {
+		if (a % b == 0 || a % b == 0) {
 			System.out.println("Os valores são Múltiplos!");
 		}
 		
